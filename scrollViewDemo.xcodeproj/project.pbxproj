@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2662A31F00F1B654DF2836B0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BF4D7B9FBD83F04EE5D09A /* libPods.a */; };
 		FB5722D91A5F712C005F1BB4 /* CodeAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5722D81A5F712C005F1BB4 /* CodeAutoLayoutViewController.m */; };
+		FB5722DB1A5F7441005F1BB4 /* vim.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5722DA1A5F7441005F1BB4 /* vim.png */; };
+		FB5722DD1A5F78E4005F1BB4 /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5722DC1A5F78E4005F1BB4 /* github.png */; };
 		FB64E8881A5F5DC900D31F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB64E8871A5F5DC900D31F46 /* main.m */; };
 		FB64E88B1A5F5DC900D31F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB64E88A1A5F5DC900D31F46 /* AppDelegate.m */; };
 		FB64E88E1A5F5DC900D31F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB64E88D1A5F5DC900D31F46 /* ViewController.m */; };
@@ -34,6 +36,8 @@
 		E2404933BB2EB6EACD3A0184 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FB5722D71A5F712C005F1BB4 /* CodeAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeAutoLayoutViewController.h; sourceTree = "<group>"; };
 		FB5722D81A5F712C005F1BB4 /* CodeAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeAutoLayoutViewController.m; sourceTree = "<group>"; };
+		FB5722DA1A5F7441005F1BB4 /* vim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vim.png; sourceTree = "<group>"; };
+		FB5722DC1A5F78E4005F1BB4 /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
 		FB64E8821A5F5DC900D31F46 /* scrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB64E8861A5F5DC900D31F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB64E8871A5F5DC900D31F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 		FB64E8841A5F5DC900D31F46 /* scrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FB5722DA1A5F7441005F1BB4 /* vim.png */,
+				FB5722DC1A5F78E4005F1BB4 /* github.png */,
 				FB64E8891A5F5DC900D31F46 /* AppDelegate.h */,
 				FB64E88A1A5F5DC900D31F46 /* AppDelegate.m */,
 				FB64E88C1A5F5DC900D31F46 /* ViewController.h */,
@@ -232,7 +238,9 @@
 			files = (
 				FB64E8911A5F5DC900D31F46 /* Main.storyboard in Resources */,
 				FB64E8961A5F5DC900D31F46 /* LaunchScreen.xib in Resources */,
+				FB5722DB1A5F7441005F1BB4 /* vim.png in Resources */,
 				FB64E8931A5F5DC900D31F46 /* Images.xcassets in Resources */,
+				FB5722DD1A5F78E4005F1BB4 /* github.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
